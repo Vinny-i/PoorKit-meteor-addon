@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "poor-kit",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "PoorKit",
+  "description": "PoorKit - some modules for poor players",
   "authors": [
-    "seasnail"
+    "Vinny__i", "Re_Lay"
   ],
   "contact": {
     "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
@@ -14,18 +14,18 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "com.poor.kit.addon"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "poor-kit.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"
   },
   "depends": {
     "java": ">=21",
-    "minecraft": ["${mc_version}"],
+    "minecraft": ">=${mc_version}",
     "meteor-client": "*"
   }
 }

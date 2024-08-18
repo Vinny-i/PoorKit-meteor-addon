@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.example.addon.mixin",
+  "package": "com.poor.kit.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
     "ExampleMixin"
