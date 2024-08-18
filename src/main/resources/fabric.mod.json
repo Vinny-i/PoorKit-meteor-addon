@@ -8,18 +8,15 @@
     "Vinny__i", "Re_Lay"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/Vinny-i/PoorKit-meteor-addon"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.poor.kit.addon"
+      "com.poor.kit.addon.PoorKit"
     ]
   },
-  "mixins": [
-    "poor-kit.mixins.json"
-  ],
   "custom": {
     "meteor-client:color": "225,25,25"
   },
